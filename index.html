@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AirBnb Superhosts</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href = "css/bootstrap.css" rel="stylesheet">
+    <link href = "css/wookmark.css" rel="stylesheet">
+    <link href = "css/main.css" rel= "stylesheet">
+  </head>
+  <body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.js"></script>
+    <script src="js/main.js"></script>
+
+<!-- NAVBAR -->
+    <div class="navbar-header">
+    <nav class="navbar navbar-default navbar fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://www.airbnbsuperhosts.com">AIRBNB SUPERHOSTS</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="#">About ASH</a></li>
+            <li><a href="#">Map</a></li>
+          </ul>
+
+
+          <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Search</button>
+          </form>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+
+<!-- JUMBOTRON -->
+<div class="jumbotron">
+  <h1>I'm a SuperHost</h1>
+    <p> You probably haven't heard of them farm-to-table offal kale chips, selfies etsy taxidermy pug skateboard. Authentic heirloom kitsch drinking vinegar blog everyday carry, slow-carb thundercats dreamcatcher messenger bag williamsburg four dollar toast. Plaid YOLO chillwave cray, microdosing venmo drinking vinegar poutine knausgaard bespoke godard. Lo-fi PBR&B single-origin coffee, flannel brunch jean shorts sriracha. Readymade 3 wolf moon truffaut, fingerstache health goth hashtag heirloom street art photo booth meditation. 8-bit hella ennui, wayfarers venmo scenester lomo whatever yuccie salvia +1 twee. Godard vinyl fanny pack cliche readymade.
+    </p>
+  <p><a class="btn btn-primary btn-lg" href="#" role="button">Read More</a></p>
+</div>
+
+
+<div class="button-group filter-button-group">
+<button data-filter="*">all</button>
+<button data-filter=".northamerica">North America</button>
+<button data-filter=".southamerica">South America</button>
+<button data-filter=".europe">Europe</button>
+<button data-filter=".asia">Asia</button>
+<button data-filter=".africa">Africa & Middle East</button>
+</div>
+
+<!-- Story Grid -->
+<div class = "grid">
+
+
+    <div class="col-md-3 grid-item europe">
+      <div class="thumbnail">
+        <img src="../pics/dray.jpg" alt="..." height=50px width=50px>
+        <div class="caption">
+          <h3>SuperHost</h3>
+          <p>After that first experience on Airbnb, I was determined to become a host after graduation. Fast forward four years, I’m now a superhost in San Francisco. I’ve met a diverse, amazing group of people who helped me 1) pay the rent on a new grad salary 2) reconnect with the Airbnb community as a host and 3) keep me motivated, curious, and always thinking about where to travel next.</p>
+          <p><a href="#" class="btn btn-primary" role="button">More</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 grid-item northamerica">
+      <div class="thumbnail">
+        <img src="../pics/dray.jpg" alt="..." height=200px width=50px>
+        <div class="caption">
+          <h3>SuperHost</h3>
+          <p>After that first experience on Airbnb, I was determined to become a host after graduation. Fast forward four years, I’m now a superhost in San Francisco. I’ve met a diverse, amazing group of people who helped me 1) pay the rent on a new grad salary 2) reconnect with the Airbnb community as a host and 3) keep me motivated, curious, and always thinking about where to travel next.</p>
+          <p><a href="#" class="btn btn-primary" role="button">Button</a> </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 grid-item europe">
+      <div class="thumbnail">
+        <img src="../pics/dray.jpg" alt="..." height=100px width=100px>
+        <div class="caption">
+          <h3>SuperHost</h3>
+          <p>After that first experience on Airbnb, I was determined to become a host after graduation. Fast forward four years, I’m now a superhost in San Francisco. I’ve met a diverse, amazing group of people who helped me 1) pay the rent on a new grad salary 2) reconnect with the Airbnb community as a host and 3) keep me motivated, curious, and always thinking about where to travel next.</p>
+          <p><a href="#" class="btn btn-primary" role="button">Button</a> </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 grid-item africa">
+      <div class="thumbnail">
+        <img src="../pics/dray.jpg" alt="..." height=50px width=50px>
+        <div class="caption">
+          <h3>SuperHost</h3>
+          <p>After that first experience on Airbnb, I was determined to become a host after graduation. Fast forward four years, I’m now a superhost in San Francisco. I’ve met a diverse, amazing group of people who helped me 1) pay the rent on a new grad salary 2) reconnect with the Airbnb community as a host and 3) keep me motivated, curious, and always thinking about where to travel next.</p>
+          <p><a href="#" class="btn btn-primary" role="button">Button</a> </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6 grid-item africa">
+      <div class="thumbnail">
+        <img src="../pics/dray.jpg" alt="..." height=100px width=100px>
+        <div class="caption">
+          <h3>SuperHost</h3>
+          <p>After that first experience on Airbnb, I was determined to become a host after graduation. Fast forward four years, I’m now a superhost in San Francisco. I’ve met a diverse, amazing group of people who helped me 1) pay the rent on a new grad salary 2) reconnect with the Airbnb community as a host and 3) keep me motivated, curious, and always thinking about where to travel next.</p>
+          <p><a href="#" class="btn btn-primary" role="button">Button</a> </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 grid-item northamerica">
+      <div class="thumbnail">
+        <img src="../pics/dray.jpg" alt="..." height=200px width=50px>
+        <div class="caption">
+          <h3>SuperHost</h3>
+          <p>After that first experience on Airbnb, I was determined to become a host after graduation. Fast forward four years, I’m now a superhost in San Francisco. I’ve met a diverse, amazing group of people who helped me 1) pay the rent on a new grad salary 2) reconnect with the Airbnb community as a host and 3) keep me motivated, curious, and always thinking about where to travel next.</p>
+          <p><a href="#" class="btn btn-primary" role="button">Button</a> </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 grid-item southamerica">
+      <div class="thumbnail">
+        <img src="../pics/dray.jpg" alt="..." height=100px width=100px>
+        <div class="caption">
+          <h3>SuperHost</h3>
+          <p>After that first experience on Airbnb, I was determined to become a host after graduation. Fast forward four years, I’m now a superhost in San Francisco. I’ve met a diverse, amazing group of people who helped me 1) pay the rent on a new grad salary 2) reconnect with the Airbnb community as a host and 3) keep me motivated, curious, and always thinking about where to travel next.</p>
+          <p><a href="#" class="btn btn-primary" role="button">Button</a> </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 grid-item northamerica">
+      <div class="thumbnail">
+        <img src="../pics/dray.jpg" alt="..." height=50px width=50px>
+        <div class="caption">
+          <h3>SuperHost</h3>
+          <p>After that first experience on Airbnb, I was determined to become a host after graduation. Fast forward four years, I’m now a superhost in San Francisco. I’ve met a diverse, amazing group of people who helped me 1) pay the rent on a new grad salary 2) reconnect with the Airbnb community as a host and 3) keep me motivated, curious, and always thinking about where to travel next.</p>
+          <p><a href="#" class="btn btn-primary" role="button">Button</a> </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 grid-item asia">
+      <div class="thumbnail">
+        <img src="../pics/dray.jpg" alt="..." height=200px width=50px>
+        <div class="caption">
+          <h3>SuperHost</h3>
+          <p>After that first experience on Airbnb, I was determined to become a host after graduation. Fast forward four years, I’m now a superhost in San Francisco. I’ve met a diverse, amazing group of people who helped me 1) pay the rent on a new grad salary 2) reconnect with the Airbnb community as a host and 3) keep me motivated, curious, and always thinking about where to travel next.</p>
+          <p><a href="#" class="btn btn-primary" role="button">Button</a> </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 grid-item southamerica">
+      <div class="thumbnail">
+        <img src="../pics/dray.jpg" alt="..." height=100px width=100px>
+        <div class="caption">
+          <h3>SuperHost</h3>
+          <p>After that first experience on Airbnb, I was determined to become a host after graduation. Fast forward four years, I’m now a superhost in San Francisco. I’ve met a diverse, amazing group of people who helped me 1) pay the rent on a new grad salary 2) reconnect with the Airbnb community as a host and 3) keep me motivated, curious, and always thinking about where to travel next.</p>
+          <p><a href="#" class="btn btn-primary" role="button">Button</a> </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 grid-item asia">
+      <div class="thumbnail">
+        <img src="../pics/dray.jpg" alt="..." height=200px width=50px>
+        <div class="caption">
+          <h3>SuperHost</h3>
+          <p>After that first experience on Airbnb, I was determined to become a host after graduation. Fast forward four years, I’m now a superhost in San Francisco. I’ve met a diverse, amazing group of people who helped me 1) pay the rent on a new grad salary 2) reconnect with the Airbnb community as a host and 3) keep me motivated, curious, and always thinking about where to travel next.</p>
+          <p><a href="#" class="btn btn-primary" role="button">Button</a> </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 grid-item africa">
+      <div class="thumbnail">
+        <img src="../pics/dray.jpg" alt="..." height=100px width=100px>
+        <div class="caption">
+          <h3>SuperHost</h3>
+          <p>After that first experience on Airbnb, I was determined to become a host after graduation. Fast forward four years, I’m now a superhost in San Francisco. I’ve met a diverse, amazing group of people who helped me 1) pay the rent on a new grad salary 2) reconnect with the Airbnb community as a host and 3) keep me motivated, curious, and always thinking about where to travel next.</p>
+          <p><a href="#" class="btn btn-primary" role="button">Button</a> </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 grid-item northamerica">
+      <div class="thumbnail">
+        <img src="../pics/dray.jpg" alt="..." height=50px width=50px>
+        <div class="caption">
+          <h3>SuperHost</h3>
+          <p>After that first experience on Airbnb, I was determined to become a host after graduation. Fast forward four years, I’m now a superhost in San Francisco. I’ve met a diverse, amazing group of people who helped me 1) pay the rent on a new grad salary 2) reconnect with the Airbnb community as a host and 3) keep me motivated, curious, and always thinking about where to travel next.</p>
+          <p><a href="#" class="btn btn-primary" role="button">Button</a> </p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-md-2 grid-item southamerica">
+      <div class="thumbnail">
+        <img src="../pics/dray.jpg" alt="..." height=50px width=50px>
+        <div class="caption">
+          <h3>SuperHost</h3>
+          <p>After that first experience on Airbnb, I was determined to become a host after graduation. Fast forward four years, I’m now a superhost in San Francisco. I’ve met a diverse, amazing group of people who helped me 1) pay the rent on a new grad salary 2) reconnect with the Airbnb community as a host and 3) keep me motivated, curious, and always thinking about where to travel next.</p>
+          <p><a href="#" class="btn btn-primary" role="button">Button</a> </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 grid-item africa">
+      <div class="thumbnail">
+        <img src="../pics/dray.jpg" alt="..." height=200px width=50px>
+        <div class="caption">
+          <h3>SuperHost</h3>
+          <p>After that first experience on Airbnb, I was determined to become a host after graduation. Fast forward four years, I’m now a superhost in San Francisco. I’ve met a diverse, amazing group of people who helped me 1) pay the rent on a new grad salary 2) reconnect with the Airbnb community as a host and 3) keep me motivated, curious, and always thinking about where to travel next.</p>
+          <p><a href="#" class="btn btn-primary" role="button">Button</a> </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 grid-item africa">
+      <div class="thumbnail">
+        <img src="../pics/dray.jpg" alt="..." height=100px width=100px>
+        <div class="caption">
+          <h3>SuperHost</h3>
+          <p>After that first experience on Airbnb, I was determined to become a host after graduation. Fast forward four years, I’m now a superhost in San Francisco. I’ve met a diverse, amazing group of people who helped me 1) pay the rent on a new grad salary 2) reconnect with the Airbnb community as a host and 3) keep me motivated, curious, and always thinking about where to travel next.</p>
+          <p><a href="#" class="btn btn-primary" role="button">Button</a> </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 grid-item asia">
+      <div class="thumbnail">
+        <img src="../pics/dray.jpg" alt="..." height=50px width=50px>
+        <div class="caption">
+          <h3>SuperHost</h3>
+          <p>After that first experience on Airbnb, I was determined to become a host after graduation. Fast forward four years, I’m now a superhost in San Francisco. I’ve met a diverse, amazing group of people who helped me 1) pay the rent on a new grad salary 2) reconnect with the Airbnb community as a host and 3) keep me motivated, curious, and always thinking about where to travel next.</p>
+          <p><a href="#" class="btn btn-primary" role="button">Button</a> </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 grid-item asia">
+      <div class="thumbnail">
+        <img src="../pics/dray.jpg" alt="..." height=200px width=50px>
+        <div class="caption">
+          <h3>SuperHost</h3>
+          <p>After that first experience on Airbnb, I was determined to become a host after graduation. Fast forward four years, I’m now a superhost in San Francisco. I’ve met a diverse, amazing group of people who helped me 1) pay the rent on a new grad salary 2) reconnect with the Airbnb community as a host and 3) keep me motivated, curious, and always thinking about where to travel next.</p>
+          <p><a href="#" class="btn btn-primary" role="button">Button</a> </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 grid-item europe">
+      <div class="thumbnail">
+        <img src="../pics/dray.jpg" alt="..." height=100px width=100px>
+        <div class="caption">
+          <h3>SuperHost</h3>
+          <p>After that first experience on Airbnb, I was determined to become a host after graduation. Fast forward four years, I’m now a superhost in San Francisco. I’ve met a diverse, amazing group of people who helped me 1) pay the rent on a new grad salary 2) reconnect with the Airbnb community as a host and 3) keep me motivated, curious, and always thinking about where to travel next.</p>
+          <p><a href="#" class="btn btn-primary" role="button">Button</a> </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 grid-item asia">
+      <div class="thumbnail">
+        <img src="../pics/dray.jpg" alt="..." height=50px width=50px>
+        <div class="caption">
+          <h3>SuperHost</h3>
+          <p>After that first experience on Airbnb, I was determined to become a host after graduation. Fast forward four years, I’m now a superhost in San Francisco. I’ve met a diverse, amazing group of people who helped me 1) pay the rent on a new grad salary 2) reconnect with the Airbnb community as a host and 3) keep me motivated, curious, and always thinking about where to travel next.</p>
+          <p><a href="#" class="btn btn-primary" role="button">Button</a> </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6 grid-item southamerica">
+      <div class="thumbnail">
+        <img src="../pics/dray.jpg" alt="..." height=200px width=50px>
+        <div class="caption">
+          <h3>SuperHost</h3>
+          <p>After that first experience on Airbnb, I was determined to become a host after graduation. Fast forward four years, I’m now a superhost in San Francisco. I’ve met a diverse, amazing group of people who helped me 1) pay the rent on a new grad salary 2) reconnect with the Airbnb community as a host and 3) keep me motivated, curious, and always thinking about where to travel next.</p>
+          <p><a href="#" class="btn btn-primary" role="button">Button</a> </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 grid-item asia">
+      <div class="thumbnail">
+        <img src="../pics/dray.jpg" alt="..." height=100px width=100px>
+        <div class="caption">
+          <h3>SuperHost</h3>
+          <p>After that first experience on Airbnb, I was determined to become a host after graduation. Fast forward four years, I’m now a superhost in San Francisco. I’ve met a diverse, amazing group of people who helped me 1) pay the rent on a new grad salary 2) reconnect with the Airbnb community as a host and 3) keep me motivated, curious, and always thinking about where to travel next.</p>
+          <p><a href="#" class="btn btn-primary" role="button">Button</a> </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 grid-item northamerica">
+      <div class="thumbnail">
+        <img src="../pics/dray.jpg" alt="..." height=50px width=50px>
+        <div class="caption">
+          <h3>SuperHost</h3>
+          <p>After that first experience on Airbnb, I was determined to become a host after graduation. Fast forward four years, I’m now a superhost in San Francisco. I’ve met a diverse, amazing group of people who helped me 1) pay the rent on a new grad salary 2) reconnect with the Airbnb community as a host and 3) keep me motivated, curious, and always thinking about where to travel next.</p>
+          <p><a href="#" class="btn btn-primary" role="button">Button</a> </p>
+        </div>
+      </div>
+    </div>
+
+</body>
+</html>
